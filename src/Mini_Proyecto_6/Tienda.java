@@ -53,10 +53,10 @@ public class Tienda {
         imagenPocion = new JLabel(new ImageIcon("src/Mini_Proyecto_6/Imagenes/pocion.png"));
         imagenMapa = new JLabel(new ImageIcon("src/Mini_Proyecto_6/Imagenes/mapa.png"));
         
-        desEspada = new JLabel ("Espada - 200 oro.");
-        desEscudo = new JLabel ("Escudo - 200 oro.");
+        desEspada = new JLabel ("Espada +5 - 200 oro.");
+        desEscudo = new JLabel ("Escudo +3 - 200 oro.");
         desPocion = new JLabel ("Pocion - 100 oro.");
-        desMapa = new JLabel ("Mapa - 10 oro.");
+        desMapa = new JLabel ("Mapa - jefe - 10 oro.");
         
         botEspada = new JButton("Comprar");
         botEscudo = new JButton("Comprar");

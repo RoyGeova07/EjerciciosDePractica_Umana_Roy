@@ -65,7 +65,7 @@ public class JuegoExcavar {
 
     if (total < 100) {
     System.out.println("Sigues siendo pobre. para nada cabaste JAJAJAJA.");
-    } else if (total < 500) {
+    } else if (total < 200) {
     System.out.println("Bien encontraste un buena cantidad de material, podras vivir 25 años agusto. ");
     } else {
         System.out.println("Que pije suerte sos bestie de rico. Puedes comprar loo que sea, ni con Elon Musk se te puede compara fockk.");
@@ -91,7 +91,7 @@ public class JuegoExcavar {
                 jugando = false;
                 break;
             default:
-                System.out.println("Imbecil, selecciona una opcion valida.");
+                System.out.println("\nImbecil, selecciona una opcion valida.");
                 break;
 
         }
@@ -114,18 +114,18 @@ public class JuegoExcavar {
             // si el numero que se a generado aqui es menor o igual que la variable "diamante" se ha encontrado diamante
             if (material <= diamante) {
                 diamantes++;
-                System.out.println("!! Chetttttt has encontrado un diamante. ");
+                System.out.println("\n!! Chetttttt has encontrado un diamante. ");
             } // si no, si el numero es menor o igual que 20  mas lo que valga diamante, entonces es oro
             // por que? por que en la primera vuelta encontrar un oro en la tirada de 100 caras  seria entre 1 hasta el 21
             // pero tambien queremos que se aumente esa posibilidad, asi que cuando aumentemos la posibilidad  de encontrar diamante
             // tambien va a aumentar  la posibilidad  de encontrar oro 
             else if (material <= (20 + diamante)) {
                 oro++;
-                System.out.println("!! Huyyy, encontras oro.");
+                System.out.println("\n!! Huyyy, encontras oro.");
             } // y asu vez disminuira la probabilidad de encontrar carbon
             else {
                 carbon++;
-                System.out.println("XD, encontraste carbon.");
+                System.out.println("\nXD, encontraste carbon.");
             }
 
             // despues nos queda es aumentar las posibilidades, quiero que cada vez que el jugador cabe derrumbe
