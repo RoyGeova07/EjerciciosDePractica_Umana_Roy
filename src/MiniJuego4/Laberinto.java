@@ -129,6 +129,5 @@ public class Laberinto {
         return lab;
     }
     
-    // de aqui saque el diseño de los lab laberintos: https://fredygeek.com/2020/09/17/mi-primer-laberinto-en-java/
     
 }
