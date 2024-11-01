@@ -34,12 +34,12 @@ public class Laberinto {
                     
                      
                     // uso de fillrect
-                    // se utiliza para dibujar un rectángulo sólido en un lienzo en gráficos 2D. Está presente en varios lenguajes de programación y bibliotecas gráficas.
+                    // se utiliza para dibujar un rectangulo sólido en un lienzo en grqficos 2D
                     
                     grafico.fillRect(columna*40, fila*40, anchoBloque, altoBloque);
                     grafico.setColor(Color.black);
                     //uso de drawRect
-                    // se utiliza para dibujar el contorno de un rectángulo en un lienzo o contexto gráfico.
+                    // se utiliza para dibujar el contorno de un rectángulo en un lienzo o contexto grafico.
                     
                     grafico.drawRect(columna*40, fila*40, anchoBloque, altoBloque);
                     
