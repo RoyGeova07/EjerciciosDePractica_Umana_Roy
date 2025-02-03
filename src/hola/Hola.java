@@ -9,5 +9,7 @@ package hola;
  * @author DELL
  */
 public class Hola {
-    
+    public static void main(String[] args) {
+        System.out.println("Proceso de conexion listo");
+    }
 }
